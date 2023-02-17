@@ -52,11 +52,12 @@ const styles = {
   container: {
     display: 'flex',
     bgcolor: 'neutral.light',
+    height: 'calc(100% - 64px)'
   },
   mainSection: {
     p: 4,
     width: '100%',
-    height: 'calc(100vh - 64px)',
+    height: '100%',
     overflow: 'auto',
   }
 }

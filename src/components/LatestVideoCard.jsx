@@ -1,7 +1,7 @@
 import { Box, Card, CardContent, Typography } from "@mui/material";
 
-function LatestVideoCard() {
-    return (<Card>
+function LatestVideoCard(props) {
+    return (<Card {...props}>
         <CardContent>
             <Typography variant="cardTitle">Latest Video Performance</Typography>
             <Box sx={styles.latestVideoContainer} >

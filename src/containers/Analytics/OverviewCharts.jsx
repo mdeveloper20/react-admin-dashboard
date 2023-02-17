@@ -81,14 +81,13 @@ export default OverviewCharts;
 
 const styles = {
     mainChart: {
-        // width: '100%',
         height: 250,
         border: 1,
         borderColor: 'neutral.medium',
-        pt:4,
+        pt: 4,
         borderTop: 'none',
-        borderRadius: 1
-        
+        borderRadius: 1,
+
     },
     container: {
         mt: 4,

@@ -41,7 +41,7 @@ const styles = {
         alignItems: 'center',
     },
     tabValue: {
-        fontSize: '1.5rem',
+        fontSize: {xs: '1rem', md: '1.5rem'},
         color: 'neutral.main',
         mr: 1
     },
@@ -49,6 +49,7 @@ const styles = {
         fontSize: '0.6rem',
         fontStyle: 'italic',
         textTransform: 'lowercase',
+        display: {xs: 'none', md: 'inline'}
     }
 }
 

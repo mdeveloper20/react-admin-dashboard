@@ -11,10 +11,10 @@ function SideNav() {
     const navigate = useNavigate()
 
     return <Sidebar
-        style={{ height: "calc(100vh - 64px)" }}
+        style={{ height: "100%", top: 'auto' }}
         breakPoint="md"
         backgroundColor={theme.palette.neutral.light}
-        acti
+
     >
         <Box sx={styles.avatarContainer}>
             <Avatar sx={styles.avatar} alt="Masoud" src="src/assets/avatars/masoud.jpeg" />
@@ -23,7 +23,6 @@ function SideNav() {
         </Box>
 
         <Menu
-
             menuItemStyles={{
                 button: ({ level, active }) => {
                     return {
