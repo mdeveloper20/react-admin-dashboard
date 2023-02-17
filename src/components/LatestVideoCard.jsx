@@ -1,12 +1,12 @@
 import { Box, Card, CardContent, Typography } from "@mui/material";
 
-function LatestVideoCard({ title, thumbnail, videoTitle }) {
+function LatestVideoCard() {
     return (<Card>
         <CardContent>
-            <Typography variant="cardTitle">{title}</Typography>
+            <Typography variant="cardTitle">Latest Video Performance</Typography>
             <Box sx={styles.latestVideoContainer} >
-                <Box sx={styles.latestVideoThumbnail} component={'img'} src={thumbnail} />
-                <Typography sx={styles.latestVideoTitle}>{videoTitle}</Typography>
+                <Box sx={styles.latestVideoThumbnail} component={'img'} src={'src/assets/thumbnail.png'} />
+                <Typography sx={styles.latestVideoTitle}>ReactJs SearchBar in 5 Minutes!</Typography>
             </Box>
             <Typography variant="h7" sx={styles.latestVideoTimeLabel}>First 6 hours:</Typography>
             <Box sx={styles.latestVideoStatsRow}>

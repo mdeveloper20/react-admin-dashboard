@@ -34,11 +34,7 @@ function Analytics() {
                 </Box>
                 <Box>
                     <RealTimeCard />
-                    <LatestVideoCard
-                        title={'Latest Video Performance'}
-                        thumbnail="src/assets/thumbnail.png"
-                        videoTitle='ReactJs SearchBar in 5 Minutes!'
-                    />
+                    <LatestVideoCard/>
                 </Box>
 
             </Box>

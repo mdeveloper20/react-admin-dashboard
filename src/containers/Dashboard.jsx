@@ -7,11 +7,7 @@ function Dashboard() {
         <Typography sx={styles.pageTitle} variant="h5">Channel Dashboard</Typography>
         <Box sx={styles.columnsContainer}>
             <Box sx={styles.column}>
-                <LatestVideoCard
-                    title={'Latest Video Performance'}
-                    thumbnail="src/assets/thumbnail.png"
-                    videoTitle='ReactJs SearchBar in 5 Minutes!'
-                />
+                <LatestVideoCard/>
                 <Card>
                     <CardContent>
                         <Typography variant="cardTitle">Latest post</Typography>
