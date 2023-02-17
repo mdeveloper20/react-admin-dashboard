@@ -2,6 +2,7 @@ import { Box, Card, CardContent, Typography, Divider } from "@mui/material";
 import CircleIcon from '@mui/icons-material/Circle';
 import { Bar } from "react-chartjs-2";
 import { realtimeChartData, realtimeChartOptions } from "./ChartConfigs";
+import ColorText from "../../components/ColorText";
 
 function RealTimeCard() {
     return (<Card sx={styles.realtimeStatsCard}>
@@ -10,16 +11,14 @@ function RealTimeCard() {
                 <Typography variant="cardTitle">Realtime</Typography>
                 <Box sx={styles.updateLiveRow}>
                     <CircleIcon sx={styles.dotIcon} />
-
-
-                    <Typography sx={styles.hintText}>Updating Live</Typography>
+                    <ColorText color="neutral.normal"><Typography variant="h7">Updating Live</Typography></ColorText>
                 </Box>
                 <Divider sx={styles.divider} />
                 <Typography sx={styles.valueText}>4,144</Typography>
-                <Typography sx={styles.hintText}>Subscribers</Typography>
+                <ColorText color="neutral.normal"><Typography variant="h7">Subscribers</Typography></ColorText>
                 <Divider sx={styles.divider} />
                 <Typography sx={styles.valueText}>1,786</Typography>
-                <Typography sx={styles.hintText}>Views Last 48 hours</Typography>
+                <ColorText color="neutral.normal"><Typography variant="h7">Views Last 48 hours</Typography></ColorText>
                 <Box sx={styles.realtimeChart}>
                 <Bar options={realtimeChartOptions} data={realtimeChartData} />
                 </Box>
@@ -53,10 +52,6 @@ export default RealTimeCard;
     },
     divider: {
         my: 2
-    },
-    hintText: {
-        fontSize: '0.8rem',
-        color: 'neutral.normal'
     },
     valueText: {
         fontSize: '1.3rem',

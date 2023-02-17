@@ -77,7 +77,7 @@ export const getMainChartData = () => {
         datasets: [
             {
 
-                label: 'Dataset 2',
+                label: 'Value',
                 data: days.map(() => faker.datatype.number({ min: 600, max: 1000 })),
                 backgroundColor: 'rgba(161, 207, 237, 0.5)',
                 animation: false
@@ -102,7 +102,7 @@ export const realtimeChartData = {
     labels: realtimeChartLabels,
     datasets: [
         {
-            label: 'Dataset 1',
+            label: 'Views',
             data: realtimeChartLabels.map(() => faker.datatype.number({ min: 30, max: 90 })),
             backgroundColor: 'rgb(95, 158, 199)',
         }

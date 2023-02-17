@@ -73,7 +73,7 @@ function Dashboard() {
                 <Card>
                     <CardContent>
                         <Typography variant="cardTitle">Latest comments</Typography>
-                        <Typography sx={styles.latestComments}>Channel comments I haven't responded to</Typography>
+                        <ColorText color="neutral.normal"><Typography variant="h7">Channel comments I haven't responded to</Typography></ColorText>
 
                         <Box sx={styles.commentRow}>
                             <Avatar sx={styles.avatar} alt="Masoud" src="src/assets/avatars/masoud.jpeg" />
@@ -266,10 +266,6 @@ const styles = {
     },
     postMeta: {
         mr: 1,
-        fontSize: '0.8rem',
-        color: 'neutral.normal'
-    },
-    latestComments: {
         fontSize: '0.8rem',
         color: 'neutral.normal'
     },
