@@ -14,7 +14,7 @@ function Customization() {
     return <Box>
         <Typography sx={styles.pageTitle} variant="h5">Customization</Typography>
         <Box sx={styles.tabHeader}>
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+            <Tabs value={value} onChange={handleChange}>
                 <Tab label="Layout" id='tab-0' />
                 <Tab label="Branding" id='tab-1' />
                 <Tab label="Basic Info" id='tab-2' />

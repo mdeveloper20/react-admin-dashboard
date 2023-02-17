@@ -86,7 +86,6 @@ function Dashboard() {
                                 Get tips from a successful creator on how to take a YouTube channel and turn it into a business that earns you money
                             </Typography>
                         </Box>
-
                         <Box
                             component="img"
                             sx={styles.videoThumbnail}
@@ -99,7 +98,6 @@ function Dashboard() {
                         <Avatar sx={styles.avatar} alt="Masoud" src="src/assets/avatars/masoud.jpeg" />
 
                         <Box>
-
                             <Box sx={styles.commentDetailsSection}>
                                 <Typography sx={styles.postMeta}>React with Masoud</Typography>
                                 <Typography sx={styles.postMeta}>2 weeks ago</Typography>
@@ -109,7 +107,6 @@ function Dashboard() {
                                 How can I deploy this?
                             </Typography>
                         </Box>
-
                         <Box
                             component="img"
                             sx={styles.videoThumbnail}
@@ -152,7 +149,6 @@ function Dashboard() {
                         <Typography variant="h7">
                             Get tips from a successful creator on how to take a YouTube channel and turn it into a business that earns you money
                         </Typography>
-
                         <Typography sx={styles.cardAction} variant="link">GET STARTED NOW</Typography>
                     </Box>
                     <Box
@@ -160,10 +156,7 @@ function Dashboard() {
                         sx={styles.ideaImage}
                         src="src/assets/study-icon.png"
                     />
-
                 </CardContent>
-
-
             </Card>
 
             <Card sx={styles.item}>
@@ -179,20 +172,11 @@ function Dashboard() {
                         <Typography variant="h7">
                             Get tips from a successful creator on how to take a YouTube channel and turn it into a business that earns you money
                         </Typography>
-
                         <Typography sx={styles.cardAction} variant="link">WATCH ON YOUTUBE</Typography>
                     </Box>
-
-
                 </CardContent>
-
-
             </Card>
-
-
         </Box>
-
-
     </Box>;
 }
 

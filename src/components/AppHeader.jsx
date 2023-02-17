@@ -1,5 +1,5 @@
 
-import { AppBar, Badge, Box, IconButton, Toolbar, Typography } from "@mui/material";
+import { AppBar, Badge, Box, IconButton, Toolbar } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu'
 import SettingsIcon from '@mui/icons-material/Settings';
 import LogoutIcon from '@mui/icons-material/Logout';

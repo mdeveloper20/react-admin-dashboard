@@ -1,6 +1,6 @@
 
 import { Line } from 'react-chartjs-2';
-import { Box, Tab, Tabs, Typography } from '@mui/material';
+import { Box, Tab, Tabs } from '@mui/material';
 import { getMainChartData, mainChartOptions } from './ChartConfigs';
 import { useState } from 'react';
 import TabPanel from '../../components/TabPanel';

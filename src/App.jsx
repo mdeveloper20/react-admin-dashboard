@@ -12,12 +12,10 @@ import { Box, Button, Container, ThemeProvider, Typography } from '@mui/material
 import SideNav from './components/SideNav';
 import AppHeader from './components/AppHeader';
 import theme from './config/theme';
-import { BrowserRouter, Route, Router, RouterProvider, Routes } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import AppRoutes from './router/AppRoutes';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <React.Fragment>
       <ThemeProvider theme={theme}>

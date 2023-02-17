@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, Divider, Tab, Tabs, Typography } from "@mui/material";
+import { Box, Divider, Tab, Tabs, Typography } from "@mui/material";
 import { useState } from "react";
 import LatestVideoCard from "../../components/LatestVideoCard";
 import TabPanel from "../../components/TabPanel";

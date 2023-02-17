@@ -7,13 +7,6 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { Box, Typography } from '@mui/material';
 
-function createData(
-    name,
-    averageViewDuration,
-    views
-) {
-    return { name, averageViewDuration, views };
-}
 
 const rows = [
     { thumbnail: 'src/assets/thumbnail.png', name: 'How to become a software developer', averageViewDuration: '2:25 (41.0%)', views: 3211 },
@@ -22,9 +15,6 @@ const rows = [
     { thumbnail: 'src/assets/thumbnail2.png', name: 'JavaScript Crash Course including real world projects', averageViewDuration: '8:10 (15.5%)', views: 1201 },
     { thumbnail: 'src/assets/thumbnail2.png', name: 'How to build an admin panel using React and TypeScript', averageViewDuration: '2:10 (34.1%)', views: 1195 },
     { thumbnail: 'src/assets/thumbnail.png', name: 'TypeScript Crash Course for beginners', averageViewDuration: '5:20 (14.1%)', views: 1037 },
-
-
-
 ];
 
 function TopVideosList({ }) {
