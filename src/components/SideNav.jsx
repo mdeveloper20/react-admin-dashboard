@@ -8,7 +8,6 @@ import { Link, useNavigate } from "react-router-dom";
 function SideNav() {
     const { collapsed } = useProSidebar();
     const theme = useTheme();
-    const navigate = useNavigate()
 
     return <Sidebar
         style={{ height: "100%", top: 'auto' }}
