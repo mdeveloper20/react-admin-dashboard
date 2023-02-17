@@ -207,7 +207,7 @@ const styles = {
         mb: 2
     },
     columnsContainer: {
-        columns: '350px 3',
+        columns: '280px 3',
         maxWidth: 1400
     },
     item: {
@@ -232,7 +232,7 @@ const styles = {
         display: 'flex',
     },
     ideaImage: {
-        width: 121,
+        width: 80,
         alignSelf: 'center',
         ml: 5
     },

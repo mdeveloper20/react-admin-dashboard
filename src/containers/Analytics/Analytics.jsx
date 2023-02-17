@@ -67,7 +67,7 @@ const styles = {
     },
     overviewContainer: {
         display: 'grid',
-        gridTemplateColumns: { 'md': '1fr', 'xl': '1fr 350px' },
+        gridTemplateColumns: { 'md': '1fr', 'lg': '1fr 300px' },
         gap: 2,
         justifyContent: 'center',
     },
