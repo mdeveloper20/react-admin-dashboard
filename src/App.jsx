@@ -12,12 +12,7 @@ import { Box, Button, Container, ThemeProvider, Typography } from '@mui/material
 import SideNav from './components/SideNav';
 import AppHeader from './components/AppHeader';
 import theme from './config/theme';
-import router from './router/AppRoutes';
 import { BrowserRouter, Route, Router, RouterProvider, Routes } from 'react-router-dom';
-import Dashboard from './containers/Dashboard';
-import Content from './containers/Content';
-import Analytics from './containers/Analytics';
-import Customization from './containers/Customization';
 import AppRoutes from './router/AppRoutes';
 
 function App() {

@@ -18,7 +18,7 @@ let theme = createTheme({
         },
         green :{
             main: green[800]
-        }
+        },
     }
 });
 

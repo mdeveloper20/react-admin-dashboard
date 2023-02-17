@@ -3,6 +3,7 @@ import { useState } from "react";
 import { DataGrid } from '@mui/x-data-grid';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import AttachMoneyOutlinedIcon from '@mui/icons-material/AttachMoneyOutlined';
+import TabPanel from "../components/TabPanel";
 const columns = [
     {
         field: 'thumbnail',
@@ -78,23 +79,6 @@ const playlists = [
 
 const lives = [
 ];
-
-
-function TabPanel({ children, value, index }) {
-
-    return (
-        <div
-            hidden={value !== index}
-            id={`simple-tabpanel-${index}`}
-        >
-            {value === index && (
-                <Box sx={{ mt: 4 }}>
-                    {children}
-                </Box>
-            )}
-        </div>
-    );
-}
 
 
 function Content() {
